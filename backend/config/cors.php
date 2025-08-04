@@ -19,17 +19,7 @@ return [
 
     'allowed_methods' => ['*'],
 
-    'allowed_origins' => [
-        'https://frontend.cashwave.my.id',
-        'http://localhost:3000',    // React default port
-        'http://localhost:5173',    // Vite default port
-        'http://localhost:8080',    // Alternative port
-        'http://localhost:8081',    // Production-like port
-        'http://127.0.0.1:3000',
-        'http://127.0.0.1:5173',
-        'http://127.0.0.1:8080',
-        'http://127.0.0.1:8081',
-    ],
+    'allowed_origins' => ['*'],
 
     'allowed_origins_patterns' => [
         '*localhost*',
