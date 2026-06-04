@@ -189,7 +189,7 @@ POST /customer-info      # Get customer info
 1. **Clone the repository**
    ```bash
    git clone <repository-url>
-   cd bayar-air-master/backend
+   cd water-billing-apps/backend
    ```
 
 2. **Install dependencies**
